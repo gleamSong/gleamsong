@@ -44,13 +44,6 @@ module.exports = {
         canonical_base: 'http://snailrend.github.io',
       }
     ],
-	 ['archive',
-            {
-                //需要排除的页面url，在该数组里面的路径，都不会被统计
-                excludes: ['/footer.html','/404.html','/about/','/mood/','/link/','/tag/','/photo/'],
-                //当某篇文章没有标题时，将使用下面值进行替换
-                noTitle: '暂时没有标题配置'
-            }]
   ],
   themeConfig: {
     lastUpdated: '更新于',
