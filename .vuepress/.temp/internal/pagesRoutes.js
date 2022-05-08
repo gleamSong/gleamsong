@@ -20,6 +20,7 @@ const routeItems = [
   ["v-740b5068","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E6%81%8B%E7%88%B1%E7%9A%84%E8%B5%B7%E7%82%B9.html",{"title":"恋爱的起点"},["/生活/恋爱/恋爱的起点.html","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E6%81%8B%E7%88%B1%E7%9A%84%E8%B5%B7%E7%82%B9","/生活/恋爱/恋爱的起点.md","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E6%81%8B%E7%88%B1%E7%9A%84%E8%B5%B7%E7%82%B9.md"]],
   ["v-798c023a","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE.html",{"title":"百问百问，绝不白问"},["/生活/恋爱/百问百问，绝不白问.html","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE","/生活/恋爱/百问百问，绝不白问.md","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-3279cf61","/aurora-archive/",{"title":""},["/aurora-archive/index.html"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

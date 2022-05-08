@@ -37,4 +37,6 @@ export const pagesData = {
   "v-798c023a": () => import(/* webpackChunkName: "v-798c023a" */"/home/songjg/文档/blog/LiveBlog/docs/.vuepress/.temp/pages/生活/恋爱/百问百问，绝不白问.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"/home/songjg/文档/blog/LiveBlog/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /aurora-archive/
+  "v-3279cf61": () => import(/* webpackChunkName: "v-3279cf61" */"/home/songjg/文档/blog/LiveBlog/docs/.vuepress/.temp/pages/aurora-archive/index.html.js").then(({ data }) => data),
 }

@@ -5,6 +5,7 @@ export const themeData = {
   "smoothScroll": true,
   "locales": {
     "/": {
+      "lang": "zh-CN",
       "selectLanguageName": "English"
     }
   },
