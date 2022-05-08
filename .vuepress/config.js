@@ -1,6 +1,60 @@
 module.exports = {
-  title: 'THOUGHT & NEW VIEW',
-  description: '记录一些想法，以及其他值得记录的东西',
-  plugins:['@vuepress-reco/vuepress-plugin-rss',{site_url:'https://blog.gleams.cyou'}],
-  
+  title: '递归之路',
+  description: '',
+  plugins: [
+    '@vuepress/active-header-links',
+    '@vuepress/back-to-top',
+    [
+      '@vuepress/last-updated',
+      {
+        transformer: (timestamp, lang) => {
+          const moment = require('moment')
+          moment.locale(lang)
+          return moment(timestamp).format('YYYY-MM-DD HH:mm:ss')
+        }
+      }
+    ],
+    [
+      "vuepress-plugin-auto-sidebar",
+      {
+        sort: {
+          mode: "asc",
+          readmeFirst: true,
+          readmeFirstForce: false
+        },
+        title: {
+          mode: "titlecase",
+          map: {}
+        },
+        sidebarDepth: 10,
+        collapse: {
+          open: false,
+          collapseList: [],
+          uncollapseList: []
+        },
+        ignore: [],
+        removeEmptyGroup: false,
+        git: {
+          trackStatus: 'all'
+        }
+      }
+    ],
+    ['feed',
+      {
+        canonical_base: 'http://snailrend.github.io',
+      }
+    ],
+  ],
+  themeConfig: {
+    lastUpdated: '更新于',
+    sidebar: 'auto',
+    displayAllHeaders: false,
+    smoothScroll: true
+  },
+  locales: {
+    '/': {
+      // 将会被设置为 <html> 的 lang 属性
+      lang: 'zh-CN',
+    }
+  },
 }
