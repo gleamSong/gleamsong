@@ -1,5 +1,5 @@
 export const themeData = {
-  "lastUpdated": "更新于",
+  "lastUpdatedText": "更新于",
   "sidebar": "auto",
   "displayAllHeaders": false,
   "smoothScroll": true,
@@ -18,7 +18,7 @@ export const themeData = {
   "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",
-  "lastUpdatedText": "Last Updated",
+  "lastUpdated": true,
   "contributors": true,
   "contributorsText": "Contributors",
   "notFound": [

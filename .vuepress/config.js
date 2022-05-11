@@ -1,14 +1,10 @@
 const { defaultTheme } = require('@vuepress/theme-default')
-const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
-const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { archivePlugin } = require('vuepress-plugin-archive')
 
 module.exports = {
   title: '递归之路',
   description: '',
   plugins: [
-    activeHeaderLinksPlugin({}),
-    backToTopPlugin({}),
     // autoSidebar({
     //   sort: {
     //     mode: "asc",
@@ -39,7 +35,7 @@ module.exports = {
     })
   ],
   theme: defaultTheme({
-    lastUpdated: '更新于',
+    lastUpdatedText: '更新于',
     sidebar: 'auto',
     displayAllHeaders: false,
     smoothScroll: true,
