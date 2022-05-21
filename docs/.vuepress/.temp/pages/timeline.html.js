@@ -3,11 +3,16 @@ export const data = {
   "path": "/timeline.html",
   "title": "",
   "lang": "zh-CN",
-  "frontmatter": {
-    "layout": "AuroraArchive"
-  },
+  "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "--layout: AuroraArchive",
+      "slug": "layout-auroraarchive",
+      "children": []
+    }
+  ],
   "git": {
     "updatedTime": 1653104091000
   },

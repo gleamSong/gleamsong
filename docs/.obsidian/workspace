@@ -7,12 +7,8 @@
         "id": "f7087db161d2de79",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "读书笔记/《敬虔的奥秘》概要总结.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "读书笔记/《敬虔的奥秘》概要总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +84,9 @@
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
-    "读书笔记/《敬虔的奥秘》概要总结.md",
     "timeline.md",
     "README.md",
+    "读书笔记/《敬虔的奥秘》概要总结.md",
     "生活/人生一定会经历的事.md",
     "生活/未来不可知，或是未来如昨日？.md",
     "生活/恋爱/恋爱的起点.md",

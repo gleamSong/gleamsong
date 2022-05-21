@@ -4,13 +4,19 @@ export const themeData = {
   "contributors": false,
   "displayAllHeaders": false,
   "smoothScroll": true,
+  "search": false,
+  "navbar": [
+    {
+      "text": "时间线",
+      "link": "/aurora-archive"
+    }
+  ],
   "locales": {
     "/": {
       "lang": "zh-CN",
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
   "logo": null,
   "darkMode": true,
   "repo": null,

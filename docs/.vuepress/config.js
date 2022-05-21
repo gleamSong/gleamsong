@@ -1,5 +1,6 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { archivePlugin } = require('vuepress-plugin-archive')
+const { searchPlugin } = require('@vuepress/plugin-search')
 //const autoSidebarPlugin = require('vuepress-plugin-auto-sidebar')
 
 // console.log(typeof autoSidebarPlugin)
@@ -31,9 +32,19 @@ module.exports = {
          // trackStatus: 'all'
        // }
      // }),
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: '搜索',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+      },
+    }),
     archivePlugin({
       //需要排除的页面url，在该数组里面的路径，都不会被统计
-      excludes: ['/footer.html', '/404.html', '/about/', '/mood/', '/link/', '/tag/', '/photo/'],
+      excludes: ['/', '/aurora-archive'],
       //当某篇文章没有标题时，将使用下面值进行替换
       noTitle: '暂时没有标题配置'
     })
@@ -44,6 +55,13 @@ module.exports = {
     contributors:false,
     displayAllHeaders: false,
     smoothScroll: true,
+    search:true,
+    navbar:[
+      {
+        text:'时间线',
+        link:'/aurora-archive'
+      }
+    ],
     locales: {
       '/': {
         // 将会被设置为 <html> 的 lang 属性
