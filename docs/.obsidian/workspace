@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "三极管碎语/碎语-2022-05-22.md",
+            "file": "三极管碎语/README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "三极管碎语/碎语-2022-05-22.md",
+                "file": "三极管碎语/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
+    "三极管碎语/README.md",
     "三极管碎语/碎语-2022-05-22.md",
     "读书笔记/《敬虔的奥秘》概要总结.md",
     "读书笔记/《四种爱》读书笔记.md",
@@ -97,7 +98,6 @@
     "生活/恋爱/恋爱的起点.md",
     "生活/恋爱/恋爱的冲动.md",
     "timeline.md",
-    "README.md",
-    "生活/未来不可知，或是未来如昨日？.md"
+    "README.md"
   ]
 }
