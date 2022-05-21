@@ -145,6 +145,20 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "人生一定会经历的事",
+    "headers": [],
+    "path": "/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E4%B8%80%E5%AE%9A%E4%BC%9A%E7%BB%8F%E5%8E%86%E7%9A%84%E4%BA%8B.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "未来不可知，或是未来如昨日？",
+    "headers": [],
+    "path": "/%E7%94%9F%E6%B4%BB/%E6%9C%AA%E6%9D%A5%E4%B8%8D%E5%8F%AF%E7%9F%A5%EF%BC%8C%E6%88%96%E6%98%AF%E6%9C%AA%E6%9D%A5%E5%A6%82%E6%98%A8%E6%97%A5%EF%BC%9F.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "《四种爱》读书笔记",
     "headers": [
       {
@@ -414,20 +428,6 @@ export const searchIndex = [
       }
     ],
     "path": "/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/%E3%80%8A%E6%95%AC%E8%99%94%E7%9A%84%E5%A5%A5%E7%A7%98%E3%80%8B%E6%A6%82%E8%A6%81%E6%80%BB%E7%BB%93.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "人生一定会经历的事",
-    "headers": [],
-    "path": "/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E4%B8%80%E5%AE%9A%E4%BC%9A%E7%BB%8F%E5%8E%86%E7%9A%84%E4%BA%8B.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "未来不可知，或是未来如昨日？",
-    "headers": [],
-    "path": "/%E7%94%9F%E6%B4%BB/%E6%9C%AA%E6%9D%A5%E4%B8%8D%E5%8F%AF%E7%9F%A5%EF%BC%8C%E6%88%96%E6%98%AF%E6%9C%AA%E6%9D%A5%E5%A6%82%E6%98%A8%E6%97%A5%EF%BC%9F.html",
     "pathLocale": "/",
     "extraFields": []
   },

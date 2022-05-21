@@ -73,7 +73,7 @@ var isLinkExternal = (link, base = "/") => {
   if (isLinkHttp(link) || isLinkFtp(link)) {
     return true;
   }
-  if (link.startsWith("/") && !link.startsWith(base)) {
+  if (link.startsWith("/") && !link.startsWith(base) && !link.endsWith(".md")) {
     return true;
   }
   return false;

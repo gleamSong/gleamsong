@@ -1,7 +1,7 @@
 export const data = {
   "key": "v-8daa1a0e",
   "path": "/",
-  "title": "THOUGHT & NEW VIEW",
+  "title": "递归之路",
   "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",

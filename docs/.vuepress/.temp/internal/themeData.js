@@ -4,7 +4,7 @@ export const themeData = {
   "contributors": false,
   "displayAllHeaders": false,
   "smoothScroll": true,
-  "search": false,
+  "search": true,
   "navbar": [
     {
       "text": "时间线",
