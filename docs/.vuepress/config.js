@@ -1,33 +1,36 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { archivePlugin } = require('vuepress-plugin-archive')
-const  autoSidebarPlugin  = require('vuepress-plugin-auto-sidebar')
+//const autoSidebarPlugin = require('vuepress-plugin-auto-sidebar')
+
+// console.log(typeof autoSidebarPlugin)
+// console.log(autoSidebarPlugin)
 
 module.exports = {
   title: '递归之路',
   description: '',
   plugins: [
-     autoSidebarPlugin({
-       sort: {
-         mode: "asc",
-         readmeFirst: true,
-         readmeFirstForce: false
-       },
-       title: {
-         mode: "titlecase",
-         map: {}
-       },
-       sidebarDepth: 10,
-       collapse: {
-         open: false,
-         collapseList: [],
-         uncollapseList: []
-       },
-       ignore: [],
-       removeEmptyGroup: false,
-       git: {
-         trackStatus: 'all'
-       }
-     }),
+     // autoSidebarPlugin({
+       // sort: {
+         // mode: "asc",
+         // readmeFirst: true,
+         // readmeFirstForce: false
+       // },
+       // title: {
+         // mode: "titlecase",
+         // map: {}
+       // },
+       // sidebarDepth: 10,
+       // collapse: {
+         // open: false,
+         // collapseList: [],
+         // uncollapseList: []
+       // },
+       // ignore: [],
+       // removeEmptyGroup: false,
+       // git: {
+         // trackStatus: 'all'
+       // }
+     // }),
     archivePlugin({
       //需要排除的页面url，在该数组里面的路径，都不会被统计
       excludes: ['/footer.html', '/404.html', '/about/', '/mood/', '/link/', '/tag/', '/photo/'],
