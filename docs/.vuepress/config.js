@@ -56,12 +56,6 @@ module.exports = {
     displayAllHeaders: false,
     smoothScroll: true,
     search:true,
-    navbar:[
-      {
-        text:'时间线',
-        link:'/aurora-archive'
-      }
-    ],
     locales: {
       '/': {
         // 将会被设置为 <html> 的 lang 属性
