@@ -15,11 +15,7 @@ import pageData from "@temp/pagesData.js";
 import PhraseItem from "./PhraseItem.vue"
 
 let excludes = []
-try {
-  excludes = __EXCLUDES__;
-} catch (e) {
-  console.warn(e)
-}
+
 export default {
   name: "PhrasePage",
   components: {
@@ -35,8 +31,17 @@ export default {
     let newPageArr = []
     let allPageArr = []
     let allYearSet = new Set()
+    excludes.push(this.$route.path)
     newPageArr = pageData.filter((pageData) => {
-      let includes = excludes.includes(pageData.path);
+      for (let item of excludes) {
+        // console.log('title', pageData.title)
+        // console.log('this.$route.path', this.$route.path)
+        // console.log('pageData.path', pageData.path)
+        // console.log(pageData.path.startsWith(this.$route.path))
+        if (!pageData.path.startsWith(item) || pageData.path.replaceAll(/\/$/g, '') === item.replaceAll(/\/$/g, '')) {
+          return false;
+        }
+      }
       let title = pageData.title
       //git commit的时间
       let updatedTime = pageData.data.git.updatedTime
@@ -45,19 +50,18 @@ export default {
         updatedTime = new Date(pageData.data.frontmatter.date).getTime()
       }
 
-      if (!includes) {
-        allYearSet.add(this.getLocalTime(updatedTime, true, false, false))
-        allPageArr.push({
-                          title: title,
-                          updatedTime: updatedTime,
-                          path: pageData.path,
-                          year: this.getLocalTime(updatedTime, true, false, false),
-                          month: this.getLocalTime(updatedTime, false, true, false),
-                          time: this.getLocalTime(updatedTime, false, false, false),
-                          day: this.getLocalTime(updatedTime, false, false, true),
-                        })
-      }
-      return !excludes.includes(pageData.path);
+      allYearSet.add(this.getLocalTime(updatedTime, true, false, false))
+      allPageArr.push({
+                        title: title,
+                        updatedTime: updatedTime,
+                        path: pageData.path,
+                        key: pageData.data.key,
+                        year: this.getLocalTime(updatedTime, true, false, false),
+                        month: this.getLocalTime(updatedTime, false, true, false),
+                        time: this.getLocalTime(updatedTime, false, false, false),
+                        day: this.getLocalTime(updatedTime, false, false, true),
+                      })
+      return true;
     })
       //设置时间
       this.allPageDataArr = allPageArr.sort(this.compare("updatedTime"))

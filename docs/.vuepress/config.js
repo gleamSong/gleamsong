@@ -69,19 +69,25 @@ module.exports = {
     }
   ],
   theme: defaultTheme({
-    lastUpdatedText: '更新于',
-    sidebar: 'auto',
-    contributors:false,
-    displayAllHeaders: false,
-    smoothScroll: true,
-    search:true,
-    locales: {
-      '/': {
-        // 将会被设置为 <html> 的 lang 属性
-        lang: 'zh-CN',
-      }
-    }
-  }),
+                        lastUpdatedText: '更新于',
+                        sidebar: 'auto',
+                        contributors: false,
+                        displayAllHeaders: false,
+                        smoothScroll: true,
+                        search: true,
+                        navbar: [
+                          {
+                            text: '三极管碎语',
+                            link: '/三极管碎语'
+                          }
+                        ],
+                        locales: {
+                          '/': {
+                            // 将会被设置为 <html> 的 lang 属性
+                            lang: 'zh-CN',
+                          }
+                        }
+                      }),
   locales: {
     '/': {
       // 将会被设置为 <html> 的 lang 属性

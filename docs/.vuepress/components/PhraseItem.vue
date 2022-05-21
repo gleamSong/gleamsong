@@ -16,8 +16,8 @@
             </div>
             <div class="timeline-content">
               <div :data="item.title" class="timeline-title">
-                <span @click="goPage(item.path)">{{ item.title === "" ? noTitle : item.title }}</span>
-                <Content :page-key="item.data.key"/>
+                <!--                <span @click="goPage(item.path)">{{ item.title === "" ? noTitle : item.title }}</span>-->
+                <Content :page-key="item.key" @click="goPage(item.path)"/>
               </div>
               <div :data="item.title" class="timeline-create-page-time">
                 <span>{{ item.time }}</span>
