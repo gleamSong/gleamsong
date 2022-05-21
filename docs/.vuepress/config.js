@@ -2,6 +2,7 @@ const {defaultTheme} = require('@vuepress/theme-default')
 const {archivePlugin} = require('vuepress-plugin-archive')
 const {searchPlugin} = require('@vuepress/plugin-search')
 const {registerComponentsPlugin} = require('@vuepress/plugin-register-components')
+const {path} = require('@vuepress/utils')
 
 //const autoSidebarPlugin = require('vuepress-plugin-auto-sidebar')
 
@@ -60,7 +61,7 @@ module.exports = {
           return page;
         });
         await app.writeTemp(
-          "page-data.js",
+          "pagesData.js",
           `export default ${JSON.stringify(pageData)}`
         );
       }

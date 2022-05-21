@@ -4,15 +4,15 @@
       <div class="timeline-year">
         <span class="timeline-year-title">{{ item }}</span>
       </div>
-      <archive-item v-for="month in getAllMonthArr(item)" :all-page-data-arr="allPageDataArr" :month="month"
-                    :page-year="item"></archive-item>
+      <phrase-item v-for="month in getAllMonthArr(item)" :all-page-data-arr="allPageDataArr" :month="month"
+                   :page-year="item"></phrase-item>
     </div>
   </div>
 </template>
 
 <script>
-const pageData = require('@temp/page-data')
-import PhraseItem from "./PhraseItem";
+import pageData from "@temp/pagesData.js";
+import PhraseItem from "./PhraseItem.vue"
 
 let excludes = []
 try {
@@ -23,7 +23,7 @@ try {
 export default {
   name: "PhrasePage",
   components: {
-    ArchiveItem: PhraseItem
+    PhraseItem
   },
   data() {
     return {
@@ -35,37 +35,33 @@ export default {
     let newPageArr = []
     let allPageArr = []
     let allYearSet = new Set()
-    new Promise((resolve, reject) => {
-      newPageArr = pageData.default.filter((pageData) => {
-        let includes = excludes.includes(pageData.path);
-        let title = pageData.title
-        //git commit的时间
-        let updatedTime = pageData.data.git.updatedTime
+    newPageArr = pageData.filter((pageData) => {
+      let includes = excludes.includes(pageData.path);
+      let title = pageData.title
+      //git commit的时间
+      let updatedTime = pageData.data.git.updatedTime
 
-        if (pageData.data.frontmatter.date !== undefined) {
-          updatedTime = new Date(pageData.data.frontmatter.date).getTime()
-        }
+      if (pageData.data.frontmatter.date !== undefined) {
+        updatedTime = new Date(pageData.data.frontmatter.date).getTime()
+      }
 
-        if (!includes) {
-          allYearSet.add(this.getLocalTime(updatedTime, true, false, false))
-          allPageArr.push({
-                            title: title,
-                            updatedTime: updatedTime,
-                            path: pageData.path,
-                            year: this.getLocalTime(updatedTime, true, false, false),
-                            month: this.getLocalTime(updatedTime, false, true, false),
-                            time: this.getLocalTime(updatedTime, false, false, false),
-                            day: this.getLocalTime(updatedTime, false, false, true),
-                          })
-        }
-        return !excludes.includes(pageData.path);
-      })
-      resolve()
-    }).then(() => {
+      if (!includes) {
+        allYearSet.add(this.getLocalTime(updatedTime, true, false, false))
+        allPageArr.push({
+                          title: title,
+                          updatedTime: updatedTime,
+                          path: pageData.path,
+                          year: this.getLocalTime(updatedTime, true, false, false),
+                          month: this.getLocalTime(updatedTime, false, true, false),
+                          time: this.getLocalTime(updatedTime, false, false, false),
+                          day: this.getLocalTime(updatedTime, false, false, true),
+                        })
+      }
+      return !excludes.includes(pageData.path);
+    })
       //设置时间
       this.allPageDataArr = allPageArr.sort(this.compare("updatedTime"))
       this.allYearArr = Array.from(allYearSet)
-    })
   },
   computed: {
     getAllMonthArr() {
@@ -142,5 +138,171 @@ export default {
 </script>
 
 <style scoped>
+:root {
+  /*时间线颜色*/
+  --archive-timeline: rgba(144, 241, 239, 0.35);
+  --archive-timeline-active: pink;
+  --archive-timeline-active-title: pink;
+  --archive-box-width: 80%;
+}
+
+.timeline-box {
+  height: max-content;
+  margin: 0 auto;
+  width: var(--archive-box-width, 80%);
+}
+
+@-webkit-keyframes timeline-active {
+  0% {
+    width: 7px;
+    height: 7px;
+  }
+  25% {
+    width: 8px;
+    height: 8px;
+  }
+  50% {
+    width: 9px;
+    height: 9px;
+  }
+  75% {
+    width: 10px;
+    height: 10px;
+  }
+  100% {
+    width: 11px;
+    height: 11px;
+  }
+}
+
+.timeline-create-time span {
+  line-height: 1.5rem;
+  /*padding-left: 1rem;*/
+}
+
+.timeline-create-link-single ul {
+  padding: 0;
+}
+
+.timeline-create-link-single ul li {
+  list-style: none;
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.timeline-create-link-single ul li .timeline-title span {
+  -webkit-animation-duration: 330ms;
+  animation-duration: 330ms;
+  -webkit-animation-name: archiveEnter;
+  animation-name: archiveEnter;
+}
+
+.timeline-create-link-single ul li:hover .timeline-title span {
+  -webkit-animation: archiveHover 330ms;
+  animation: archiveHover 330ms;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  color: var(--archive-timeline-active-title, pink);
+}
+
+@-webkit-keyframes archiveShade {
+  from {
+    box-shadow: rgba(0, 0, 0, 0);
+  }
+  to {
+    box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  }
+}
+
+@-webkit-keyframes archiveEnter {
+  from {
+    padding-left: 10px;
+  }
+  to {
+    padding-left: 0px;
+  }
+}
+
+@-webkit-keyframes archiveHover {
+  from {
+    padding-left: 0;
+  }
+  to {
+    padding-left: 10px;
+  }
+}
+
+.timeline-title a {
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.timeline-create-page-time span {
+  font-size: 13px;
+}
+
+.timeline-year {
+  height: 3rem;
+  position: relative;
+  width: 6rem;
+  padding-left: 1.15rem;
+}
+
+.timeline-year-title:before {
+  display: inline-block;
+  height: 7px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 10%;
+  content: "";
+  border-radius: 10px;
+  -webkit-animation: timelineYearLevel 900ms;
+  animation: timelineYearLevel 900ms;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.timeline-year:hover .timeline-year-title {
+  cursor: pointer;
+}
+
+.timeline-year:hover .timeline-year-title:before {
+  -webkit-animation: timelineTitleChange 900ms;
+  animation: timelineTitleChange 900ms;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes timelineYearLevel {
+  from {
+    background: rgba(0, 207, 200, .9);
+    width: 50%;
+  }
+  to {
+    background: rgba(0, 207, 200, .4);
+    width: 15%;
+  }
+}
+
+@keyframes timelineTitleChange {
+  from {
+    background: rgba(0, 207, 200, .4);
+    width: 15%;
+  }
+  to {
+    width: 50%;
+    background: rgba(0, 207, 200, .9);
+  }
+}
+
+.timeline-year span {
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.timeline-item {
+  margin-bottom: 1.5rem;
+}
 
 </style>
