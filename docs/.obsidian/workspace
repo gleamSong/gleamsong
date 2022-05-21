@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "读书笔记/《敬虔的奥秘》概要总结.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -19,76 +19,62 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f02b2f1ec05ad55e",
-    "type": "split",
+    "id": "36de57d9877de5d2",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "0785cadd974dc573",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b80e3df5f9b6b14d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "2fe700970d2d7090",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "f1ee4542495ef7a8",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "dac35ad285c22019",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "2b74cf5d1e108f75",
-    "type": "split",
+    "id": "672a1959c45207d2",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "9b6f9cbfc75258f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6abce2d4ff0f259f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "读书笔记/《敬虔的奥秘》概要总结.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "9ab6eb41877755f5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "README.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
+    "README.md",
     "读书笔记/《敬虔的奥秘》概要总结.md",
     "读书笔记/《四种爱》读书笔记.md",
     "生活/恋爱/百问百问，绝不白问.md",
@@ -96,7 +82,6 @@
     "生活/恋爱/恋爱的起点.md",
     "生活/恋爱/恋爱的冲动.md",
     "timeline.md",
-    "README.md",
     "生活/未来不可知，或是未来如昨日？.md",
     "一种奇怪的分享欲.md"
   ]
