@@ -9,14 +9,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "updatedTime": 1651980427000,
-    "contributors": [
-      {
-        "name": "songjg",
-        "email": "toblessong@163.com",
-        "commits": 2
-      }
-    ]
+    "updatedTime": 1653104091000
   },
   "filePathRelative": "一种奇怪的分享欲.md"
 }

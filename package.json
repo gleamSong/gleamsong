@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@vuepress/plugin-last-updated": "^1.0.0-rc.1",
+    "@vuepress/plugin-search": "^2.0.0-beta.45",
     "moment": "^2.29.3",
     "vuepress-plugin-archive": "^1.1.3",
     "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"

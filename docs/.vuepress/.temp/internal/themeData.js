@@ -1,6 +1,7 @@
 export const themeData = {
   "lastUpdatedText": "更新于",
   "sidebar": "auto",
+  "contributors": false,
   "displayAllHeaders": false,
   "smoothScroll": true,
   "locales": {
@@ -19,7 +20,6 @@ export const themeData = {
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
-  "contributors": true,
   "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",

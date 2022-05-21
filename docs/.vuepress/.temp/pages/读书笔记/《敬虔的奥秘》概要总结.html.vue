@@ -41,13 +41,14 @@
 教义是<strong>有关主耶稣基督的信息</strong>，让人可以信靠他。</p>
 </blockquote>
 <h3 id="_3-教义的的范围" tabindex="-1"><a class="header-anchor" href="#_3-教义的的范围" aria-hidden="true">#</a> 3. 教义的的范围</h3>
-<pre><code>- 三位一体
-- 人在罪中堕落和迷失
-- 基督的道成肉身、救赎、复活、升天、现在掌权、将要再来审判
-- 圣灵更新的工作
-- 当下通过保惠师圣灵于基督的团契
-- 天堂和地狱的永存
-</code></pre>
+<ul>
+<li>三位一体</li>
+<li>人在罪中堕落和迷失</li>
+<li>基督的道成肉身、救赎、复活、升天、现在掌权、将要再来审判</li>
+<li>圣灵更新的工作</li>
+<li>当下通过保惠师圣灵于基督的团契</li>
+<li>天堂和地狱的永存</li>
+</ul>
 <blockquote>
 <p>当人们试图解释圣经并总结其教导时，圣经自身必须始终是最终考量标准。</p>
 </blockquote>
@@ -68,10 +69,11 @@
 - 教会应当追求展示出自己是一个普世教会的小模型，一个表率、样本、范例，一个伟大实在的缩影。
 - 教会应该努力合一，超越人群间原本的隔阂。</p>
 <h3 id="_4-承载教义的形式" tabindex="-1"><a class="header-anchor" href="#_4-承载教义的形式" aria-hidden="true">#</a> 4. 承载教义的形式</h3>
-<pre><code>- 信经
-- 十诫
-- 要理问答
-</code></pre>
+<ul>
+<li>信经</li>
+<li>十诫</li>
+<li>要理问答</li>
+</ul>
 <h3 id="_5-教义与伦理" tabindex="-1"><a class="header-anchor" href="#_5-教义与伦理" aria-hidden="true">#</a> 5. 教义与伦理</h3>
 <h3 id="_6-教义的对立面" tabindex="-1"><a class="header-anchor" href="#_6-教义的对立面" aria-hidden="true">#</a> 6. 教义的对立面</h3>
 <h2 id="三、认真对待合一" tabindex="-1"><a class="header-anchor" href="#三、认真对待合一" aria-hidden="true">#</a> 三、认真对待合一</h2>

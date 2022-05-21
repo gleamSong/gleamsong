@@ -41,6 +41,7 @@ module.exports = {
   theme: defaultTheme({
     lastUpdatedText: '更新于',
     sidebar: 'auto',
+    contributors:false,
     displayAllHeaders: false,
     smoothScroll: true,
     locales: {

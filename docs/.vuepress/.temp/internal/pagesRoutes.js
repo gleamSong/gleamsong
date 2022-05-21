@@ -1,6 +1,9 @@
 import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
+  ["v-8daa1a0e","/",{"title":"THOUGHT & NEW VIEW"},["/index.html","/README.md"]],
+  ["v-2f915242","/timeline.html",{"title":""},["/timeline","/timeline.md"]],
+  ["v-40c17455","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2.html",{"title":"一种奇怪的分享欲"},["/一种奇怪的分享欲.html","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2","/一种奇怪的分享欲.md","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2.md"]],
   ["v-7f0c5179","/%E4%BF%A1%E4%BB%B0/%E4%BF%A1%E5%BF%83.html",{"title":"信心"},["/信仰/信心.html","/%E4%BF%A1%E4%BB%B0/%E4%BF%A1%E5%BF%83","/信仰/信心.md","/%E4%BF%A1%E4%BB%B0/%E4%BF%A1%E5%BF%83.md"]],
   ["v-d532b046","/%E4%BF%A1%E4%BB%B0/%E5%9C%A3%E7%BB%8F.html",{"title":"圣经"},["/信仰/圣经.html","/%E4%BF%A1%E4%BB%B0/%E5%9C%A3%E7%BB%8F","/信仰/圣经.md","/%E4%BF%A1%E4%BB%B0/%E5%9C%A3%E7%BB%8F.md"]],
   ["v-54bc51ca","/%E4%BF%A1%E4%BB%B0/%E6%82%94%E6%94%B9.html",{"title":"悔改"},["/信仰/悔改.html","/%E4%BF%A1%E4%BB%B0/%E6%82%94%E6%94%B9","/信仰/悔改.md","/%E4%BF%A1%E4%BB%B0/%E6%82%94%E6%94%B9.md"]],
@@ -18,9 +21,6 @@ const routeItems = [
   ["v-798c023a","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE.html",{"title":"百问百问，绝不白问"},["/生活/恋爱/百问百问，绝不白问.html","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE","/生活/恋爱/百问百问，绝不白问.md","/%E7%94%9F%E6%B4%BB/%E6%81%8B%E7%88%B1/%E7%99%BE%E9%97%AE%E7%99%BE%E9%97%AE%EF%BC%8C%E7%BB%9D%E4%B8%8D%E7%99%BD%E9%97%AE.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
   ["v-3279cf61","/aurora-archive/",{"title":""},["/aurora-archive/index.html"]],
-  ["v-40c17455","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2.html",{"title":"一种奇怪的分享欲"},["/一种奇怪的分享欲.html","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2","/一种奇怪的分享欲.md","/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2.md"]],
-  ["v-2f915242","/timeline.html",{"title":""},["/timeline","/timeline.md"]],
-  ["v-8daa1a0e","/",{"title":"THOUGHT & NEW VIEW"},["/index.html","/README.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

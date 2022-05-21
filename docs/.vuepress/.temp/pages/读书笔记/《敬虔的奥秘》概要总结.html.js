@@ -235,14 +235,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1647795046000,
-    "contributors": [
-      {
-        "name": "songjg",
-        "email": "toblessong@163.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1653104091000
   },
   "filePathRelative": "读书笔记/《敬虔的奥秘》概要总结.md"
 }

@@ -52,14 +52,7 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": 1647795046000,
-    "contributors": [
-      {
-        "name": "songjg",
-        "email": "toblessong@163.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1653104091000
   },
   "filePathRelative": "信仰/神.md"
 }

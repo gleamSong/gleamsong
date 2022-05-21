@@ -7,8 +7,12 @@
         "id": "f7087db161d2de79",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "读书笔记/《敬虔的奥秘》概要总结.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "读书笔记/《敬虔的奥秘》概要总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -84,6 +89,7 @@
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
+    "读书笔记/《敬虔的奥秘》概要总结.md",
     "timeline.md",
     "README.md",
     "生活/人生一定会经历的事.md",
@@ -92,7 +98,6 @@
     "生活/恋爱/百问百问，绝不白问.md",
     "生活/恋爱/恋爱的冲动.md",
     "一种奇怪的分享欲.md",
-    "读书笔记/《敬虔的奥秘》概要总结.md",
     "信仰/神.md"
   ]
 }
