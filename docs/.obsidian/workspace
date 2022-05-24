@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "生活/恋爱/百问百问，绝不白问.md",
+            "file": "三极管碎语/README.md",
             "mode": "source",
             "source": false
           }
@@ -19,85 +19,70 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f02b2f1ec05ad55e",
-    "type": "split",
+    "id": "e0358236ef2722fb",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "0785cadd974dc573",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b80e3df5f9b6b14d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {}
-            }
-          },
-          {
-            "id": "2fe700970d2d7090",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
+        "id": "2b504ce59798cc88",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "3df8eeee4c58de29",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300
+    "currentTab": 0
   },
   "right": {
-    "id": "2b74cf5d1e108f75",
-    "type": "split",
+    "id": "571dd73bc7139a15",
+    "type": "mobile-drawer",
     "children": [
       {
-        "id": "9b6f9cbfc75258f9",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6abce2d4ff0f259f",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "生活/恋爱/百问百问，绝不白问.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
+        "id": "4a32d8b9acc71398",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "三极管碎语/README.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
           }
-        ]
+        }
       }
     ],
-    "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "currentTab": 0
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
-    "生活/恋爱/百问百问，绝不白问.md",
     "三极管碎语/README.md",
+    "三极管碎语/碎语-2022年5月24日.md",
     "三极管碎语/碎语-2022-05-22.md",
+    "生活/恋爱/百问百问，绝不白问.md",
     "读书笔记/《敬虔的奥秘》概要总结.md",
     "读书笔记/《四种爱》读书笔记.md",
     "生活/人生一定会经历的事.md",
     "生活/恋爱/恋爱的起点.md",
     "生活/恋爱/恋爱的冲动.md",
-    "timeline.md",
-    "README.md"
+    "timeline.md"
   ]
 }
