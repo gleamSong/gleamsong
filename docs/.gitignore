@@ -1,0 +1,7 @@
+##ignore this file##:
+/node_modules
+/yarn-error.log
+/yarn.lock
+/docs/.vuepress/dist
+/docs/.vuepress/.temp
+/docs/.vuepress/.cache

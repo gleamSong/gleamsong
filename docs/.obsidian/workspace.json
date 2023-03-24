@@ -1,0 +1,151 @@
+{
+  "main": {
+    "id": "98a61bee6ab53a94",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d167198ad023ffb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c686d8734d002f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "信仰/三代经课/2023-03-04.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6815df7adfa02afb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "信仰/三代经课/2023-03-20.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7ad581a7bdcf53da",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0007bb000866810",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "20e5eac6a7065524",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "30ce47926c8e0cc0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "01b738039bca71dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "00de93c8606bbc34",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dd16eef26a9bbea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "信仰/三代经课/2023-03-20.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "6815df7adfa02afb",
+  "lastOpenFiles": [
+    "信仰/三代经课/2023-03-20.sync-conflict-20230320-224553-GTHP3BS.md",
+    "信仰/三代经课/2023-03-20.md",
+    "信仰/三代经课/2023-03-20.sync-conflict-20230320-225207-GTHP3BS.md",
+    "信仰/三代经课/模板.md",
+    "课程笔记/表达课/1. 避免触发反驳机制.md",
+    "三极管碎语/碎语-2023年3月15日08点19.md",
+    "生活/我的地雷图鉴.md",
+    "三极管碎语/碎语-2023年3月13日01点09.md",
+    "信仰/三代经课/2023-03-16.md",
+    "信仰/关于信仰，我想问你….md",
+    "信仰/三代经课/2023-03-04.md",
+    "课程笔记/表达课",
+    "课程笔记",
+    "信仰/三代经课/2023-03-12.md",
+    "三极管碎语/碎语-2023年3月11日23点58.md",
+    "三极管碎语/2023年3月11日23点58.md",
+    "三极管碎语/未命名.md",
+    "三极管碎语/碎语-2023年03月05日21点32.md",
+    "三极管碎语/碎语-2023年2月28日.md",
+    "信仰/三代经课/2023-02-26.md",
+    "信仰/三代经课/2023-02-28.md",
+    "信仰/三代经课/2023-03-02.md",
+    "三极管碎语/碎语-2023-02-28.md",
+    "信仰/三代经课/2023-02-25.md",
+    "信仰/三代经课/2023-02-21.md",
+    "信仰/三代经课/2023-02-16.md",
+    "信仰/三代经课/2023-02-17.md",
+    "信仰/三代经课/2023-02-15.md"
+  ]
+}

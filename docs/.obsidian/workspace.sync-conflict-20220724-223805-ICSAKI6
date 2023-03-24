@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "生活/恋爱/百问百问，绝不白问.md",
-            "mode": "source",
+            "mode": "preview",
             "source": false
           }
         }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7ad581a7bdcf53da",
+    "id": "98ee203eee53b95b",
     "type": "split",
     "children": [
       {
-        "id": "f0007bb000866810",
+        "id": "c2a4afcc25164c21",
         "type": "tabs",
         "children": [
           {
-            "id": "20e5eac6a7065524",
+            "id": "f532d95f03f601dc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "30ce47926c8e0cc0",
+            "id": "2b9112a2423a7e00",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,15 +56,15 @@
     "width": 300
   },
   "right": {
-    "id": "01b738039bca71dc",
+    "id": "58026d2c93eed296",
     "type": "split",
     "children": [
       {
-        "id": "00de93c8606bbc34",
+        "id": "6cb9c23e0239a184",
         "type": "tabs",
         "children": [
           {
-            "id": "0dd16eef26a9bbea",
+            "id": "89aeb1bc307ce30e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -89,15 +89,15 @@
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
-    "timeLog/timeline.md",
     "生活/恋爱/百问百问，绝不白问.md",
-    "三极管碎语/碎语-2022年9月2日.md",
+    "三极管碎语/碎语-2022年6月12日.md",
+    "三极管碎语/碎语-2022年7月7日.md",
+    "三极管碎语/碎语-2022年6月5日.md",
+    "三极管碎语/碎语-2022年5月24日.md",
     "三极管碎语/碎语-2022-05-22.md",
-    "三极管碎语/碎语-2022年8月31日.md",
-    "读书笔记/《活在生灵里》概要总结.md",
-    "信仰/圣灵/圣灵的工作.md",
-    "信仰/圣灵/圣灵的果子.md",
-    "生活/未来不可知，或是未来如昨日？.md",
-    "三极管碎语/碎语-2022年6月12日.md"
+    "三极管碎语/碎语-2022年6月15日.md",
+    "三极管碎语/碎语-2022年6月27日.md",
+    "timeLog/timeline.md",
+    "读书笔记/《敬虔的奥秘》概要总结.md"
   ]
 }

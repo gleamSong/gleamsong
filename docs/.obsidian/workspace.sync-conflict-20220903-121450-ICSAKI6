@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "生活/恋爱/百问百问，绝不白问.md",
+            "file": "读书笔记/《活在生灵里》概要总结.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "7ad581a7bdcf53da",
+    "id": "4009fabdb7f3b63f",
     "type": "split",
     "children": [
       {
-        "id": "f0007bb000866810",
+        "id": "31e9722c3266f969",
         "type": "tabs",
         "children": [
           {
-            "id": "20e5eac6a7065524",
+            "id": "64d9d13607fcbf1b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "30ce47926c8e0cc0",
+            "id": "633281a48cafb526",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +56,20 @@
     "width": 300
   },
   "right": {
-    "id": "01b738039bca71dc",
+    "id": "ab32551dfcc6cc04",
     "type": "split",
     "children": [
       {
-        "id": "00de93c8606bbc34",
+        "id": "f35d13ef760e2f5b",
         "type": "tabs",
         "children": [
           {
-            "id": "0dd16eef26a9bbea",
+            "id": "fcde572c25e7ed5e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "生活/恋爱/百问百问，绝不白问.md",
+                "file": "读书笔记/《活在生灵里》概要总结.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f7087db161d2de79",
   "lastOpenFiles": [
+    "信仰/圣灵/圣灵的工作.md",
+    "读书笔记/《活在生灵里》概要总结.md",
+    "信仰/圣灵/圣灵的果子.md",
     "timeLog/timeline.md",
     "生活/恋爱/百问百问，绝不白问.md",
-    "三极管碎语/碎语-2022年9月2日.md",
-    "三极管碎语/碎语-2022-05-22.md",
-    "三极管碎语/碎语-2022年8月31日.md",
-    "读书笔记/《活在生灵里》概要总结.md",
-    "信仰/圣灵/圣灵的工作.md",
-    "信仰/圣灵/圣灵的果子.md",
     "生活/未来不可知，或是未来如昨日？.md",
-    "三极管碎语/碎语-2022年6月12日.md"
+    "三极管碎语/碎语-2022年6月12日.md",
+    "三极管碎语/碎语-2022年7月7日.md",
+    "三极管碎语/碎语-2022年6月5日.md",
+    "三极管碎语/碎语-2022年5月24日.md"
   ]
 }

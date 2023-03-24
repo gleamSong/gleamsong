@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "98a61bee6ab53a94",
+    "type": "split",
+    "children": [
+      {
+        "id": "63058826e48e8cd2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7087db161d2de79",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "生活/我的地雷图鉴.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9151bccfac5ad12d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "25fb56d97c7d20b4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "cce64ec31a5d6e9f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b94f997cdc5a9f4b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "323e250f2d833a71",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "生活/我的地雷图鉴.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "f7087db161d2de79",
+  "lastOpenFiles": [
+    "信仰/三代经课/2023-03-20.sync-conflict-20230320-224553-GTHP3BS.md",
+    "信仰/三代经课/2023-03-20.md",
+    "课程笔记/表达课/1. 避免触发反驳机制.md",
+    "课程笔记/表达课",
+    "课程笔记",
+    "信仰/三代经课/2023-03-16.md",
+    "生活/我的地雷图鉴.md",
+    "三极管碎语/碎语-2023年3月15日08点19.md",
+    "三极管碎语/碎语-2023年3月13日01点09.md",
+    "信仰/关于信仰，我想问你….md",
+    "信仰/三代经课/2023-03-12.md",
+    "信仰/三代经课/模板.md",
+    "三极管碎语/README.md",
+    "三极管碎语/碎语-2023年3月11日23点58.md",
+    "生活/恋爱/百问百问，绝不白问.md",
+    "三极管碎语/碎语-2023年03月05日21点32.md",
+    "生活/我如何看待相亲？.md",
+    "三极管碎语/碎语-2023年1月21日-2.md",
+    "未命名",
+    "三极管碎语/碎语-2023年1月21日.md",
+    "三极管碎语/碎语-2023年2月6日.md",
+    "三极管碎语/碎语-2023年2月21日.md",
+    "三极管碎语/碎语-2023年2月28日.md",
+    "三极管碎语/碎语-2022年9月2日.md",
+    "三极管碎语/碎语-2022年8月31日.md",
+    "三极管碎语/碎语-2022年7月10日.md",
+    "三极管碎语/碎语-2022年7月7日.md",
+    "三极管碎语/碎语-2022年6月27日.md",
+    "三极管碎语/碎语-2022年6月15日.md"
+  ]
+}

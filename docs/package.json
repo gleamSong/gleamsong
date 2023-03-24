@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "NEW VIEW",
+  "main": "index.js",
+  "author": "songjg",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^2.0.0-beta.45",
+    "@vuepress/plugin-back-to-top": "^2.0.0-beta.45",
+    "vuepress": "^2.0.0-beta.45"
+  },
+  "dependencies": {
+    "@vuepress/plugin-last-updated": "^1.0.0-rc.1",
+    "@vuepress/plugin-search": "^2.0.0-beta.45",
+    "moment": "^2.29.3",
+    "vuepress-plugin-archive": "^1.1.3",
+    "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
+  }
+}

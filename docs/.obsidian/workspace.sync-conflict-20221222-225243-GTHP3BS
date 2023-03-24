@@ -1,0 +1,88 @@
+{
+  "main": {
+    "id": "98a61bee6ab53a94",
+    "type": "split",
+    "children": [
+      {
+        "id": "f7087db161d2de79",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "timeLog/timeline.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9151bccfac5ad12d",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "25fb56d97c7d20b4",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "cce64ec31a5d6e9f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b94f997cdc5a9f4b",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "323e250f2d833a71",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "timeLog/timeline.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "f7087db161d2de79",
+  "lastOpenFiles": [
+    "生活/恋爱/百问百问，绝不白问.md",
+    "timeLog/timeline.md",
+    "三极管碎语/碎语-2022年9月2日.md",
+    "三极管碎语/碎语-2022-05-22.md",
+    "三极管碎语/碎语-2022年8月31日.md",
+    "读书笔记/《活在生灵里》概要总结.md",
+    "信仰/圣灵/圣灵的工作.md",
+    "信仰/圣灵/圣灵的果子.md",
+    "生活/未来不可知，或是未来如昨日？.md",
+    "三极管碎语/碎语-2022年6月12日.md"
+  ]
+}
