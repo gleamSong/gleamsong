@@ -1,0 +1,1 @@
+const t={key:"v-40c17455",path:"/%E4%B8%80%E7%A7%8D%E5%A5%87%E6%80%AA%E7%9A%84%E5%88%86%E4%BA%AB%E6%AC%B2.html",title:"\u4E00\u79CD\u5947\u602A\u7684\u5206\u4EAB\u6B32",lang:"zh-CN",frontmatter:{date:"2022-05-01T00:00:00.000Z"},excerpt:"",headers:[],git:{},filePathRelative:"\u4E00\u79CD\u5947\u602A\u7684\u5206\u4EAB\u6B32.md"};export{t as data};

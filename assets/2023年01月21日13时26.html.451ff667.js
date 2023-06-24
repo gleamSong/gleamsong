@@ -1,0 +1,1 @@
+import{_,o as e,c}from"./app.9fcaaf32.js";const r={};function t(n,o){return e(),c("p",null,"\u7BA1\u5B83\u5462\uFF01\u7231\u5C31\u5BF9\u4E86\uFF01")}var l=_(r,[["render",t],["__file","2023\u5E7401\u670821\u65E513\u65F626.html.vue"]]);export{l as default};

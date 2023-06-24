@@ -1,0 +1,1 @@
+import{_,o as e,c}from"./app.9fcaaf32.js";const r={};function t(n,o){return e(),c("p",null,"\u559C\u6B22\u770B\u89C1\u522B\u4EBA\u5F00\u5FC3\u5927\u7B11\uFF0C \u522B\u4EBA\u5F00\u5FC3\uFF0C\u6211\u5C31\u9AD8\u5174\u3002")}var l=_(r,[["render",t],["__file","2023\u5E7405\u670801\u65E523\u65F625.html.vue"]]);export{l as default};

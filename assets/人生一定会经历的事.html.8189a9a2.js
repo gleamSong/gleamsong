@@ -1,0 +1,1 @@
+const t={key:"v-5c3f8208",path:"/%E7%94%9F%E6%B4%BB/%E4%BA%BA%E7%94%9F%E4%B8%80%E5%AE%9A%E4%BC%9A%E7%BB%8F%E5%8E%86%E7%9A%84%E4%BA%8B.html",title:"\u4EBA\u751F\u4E00\u5B9A\u4F1A\u7ECF\u5386\u7684\u4E8B",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{},filePathRelative:"\u751F\u6D3B/\u4EBA\u751F\u4E00\u5B9A\u4F1A\u7ECF\u5386\u7684\u4E8B.md"};export{t as data};
