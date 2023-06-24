@@ -13,6 +13,7 @@
 <script>
 import pageData from "@temp/pagesData.js";
 import PhraseItem from "./PhraseItem.vue"
+import moment from "moment";
 
 let excludes = []
 
@@ -45,27 +46,29 @@ export default {
       let title = pageData.title
       //git commit的时间
       let updatedTime = pageData.data.git.updatedTime
+      let slug = pageData.slug;
+      let datetime = moment(slug,'YYYY年MM月DD日hh时mm');
 
       if (pageData.data.frontmatter.date !== undefined) {
         updatedTime = new Date(pageData.data.frontmatter.date).getTime()
       }
 
-      allYearSet.add(this.getLocalTime(updatedTime, true, false, false))
+      allYearSet.add(datetime.get('year'))
       allPageArr.push({
                         title: title,
-                        updatedTime: updatedTime,
+                        updatedTime: datetime,
                         path: pageData.path,
                         key: pageData.data.key,
-                        year: this.getLocalTime(updatedTime, true, false, false),
-                        month: this.getLocalTime(updatedTime, false, true, false),
-                        time: this.getLocalTime(updatedTime, false, false, false),
-                        day: this.getLocalTime(updatedTime, false, false, true),
+                        year: datetime.get('year'),
+                        month: datetime.get('month')+1,
+                        time: datetime.format('YYYY年MM月DD日hh时mm分'),
+                        day: datetime.get('day'),
                       })
       return true;
     })
       //设置时间
       this.allPageDataArr = allPageArr.sort(this.compare("updatedTime"))
-      this.allYearArr = Array.from(allYearSet)
+      this.allYearArr = Array.from(allYearSet).sort(this.compareMonth())
   },
   computed: {
     getAllMonthArr() {
@@ -99,9 +102,9 @@ export default {
       return function (object1, object2) {
         let value1 = object1.updatedTime;
         let value2 = object2.updatedTime;
-        if (value2 < value1) {
+        if (value2 > value1) {
           return 1;
-        } else if (value2 > value1) {
+        } else if (value2 < value1) {
           return -1;
         } else {
           return 0;
@@ -153,7 +156,7 @@ export default {
 .timeline-box {
   height: max-content;
   margin: 0 auto;
-  width: var(--archive-box-width, 80%);
+  width: unset;
 }
 
 @-webkit-keyframes timeline-active {

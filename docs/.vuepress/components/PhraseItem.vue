@@ -14,10 +14,10 @@
               </div>
               <div class="timeline-line-bottom"></div>
             </div>
-            <div class="timeline-content">
+            <div class="timeline-content"  @click="goPage(item.path)">
               <div :data="item.title" class="timeline-title">
                 <!--                <span @click="goPage(item.path)">{{ item.title === "" ? noTitle : item.title }}</span>-->
-                <Content :page-key="item.key" @click="goPage(item.path)"/>
+                <Content :page-key="item.key"/>
               </div>
               <div :data="item.title" class="timeline-create-page-time">
                 <span>{{ item.time }}</span>
@@ -64,6 +64,7 @@ export default {
   },
   methods: {
     goPage(path) {
+      window.console.log("goPage")
       this.$router.push(path)
     },
     compare(updatedTime) {
