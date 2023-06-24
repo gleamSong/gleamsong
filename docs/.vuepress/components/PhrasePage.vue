@@ -29,6 +29,8 @@ export default {
     }
   },
   created() {
+    document.title = decodeURI(this.$route.path).replaceAll('/','-').replaceAll(/(^-)|(-$)/g,'')
+                     + ' | ' + document.title
     let newPageArr = []
     let allPageArr = []
     let allYearSet = new Set()
