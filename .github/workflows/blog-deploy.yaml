@@ -15,5 +15,5 @@ jobs:
         TARGET_BRANCH: build
         BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://blog.gleams.cyou/
+        CNAME: blog.gleams.cyou
 
